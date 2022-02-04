@@ -7,9 +7,6 @@
 # O programa deve imprimir uma mensagem de erro para cada informação 
 # inválida.
 
-import string
-
-
 idade = int(input("Digite sua idade entre 0 à 150: "))
 if 0 < idade < 150:
     print("Ok"),
