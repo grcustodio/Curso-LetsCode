@@ -44,4 +44,11 @@ if e == "S":
 else:
     suspeito = suspeito + 0
 
-
+if suspeito == 5:
+    print('Você está preso!')
+elif suspeito == 4 or suspeito == 3:
+    print('Você é considerado cúmplice!')
+elif suspeito == 2:
+    print('Você é considerado suspeito!')
+else:
+    print('Você está liberado!')
